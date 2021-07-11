@@ -1,0 +1,44 @@
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*배경화면 속성*/
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.holiday {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+#username {
+    color: skyblue;
+}
+
+input {
+    color: white;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+}

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>js momentum - thdi6121</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!-- Clock.
     Username (with localStorage).
@@ -14,10 +17,35 @@
     Random Background Image.
     Weather with Geolocation.
     Make pretty CSS 💖  -->
+    <h1 id="time">
+        <div id="date">
+            <span id="day-of-week"></span>
+        </div>
+        <div id="clock">
+        </div>
+    </h1>
+    <form action="" id="get-username" class="hidden">
+        <input type="text" required maxlength="15" placeholder="What's Your Name?">
+    </form>
+    <h2 id="username" class="hidden"></h2>
+    <div id="weather-info">
+        <span id="city"></span>
+        <span id="weather"></span>
+        <span id="temp"></span>
+    </div>
+    <form action="" id="get-todo" class="hidden">
+        <input type="text" required placeholder="Type Your Todo Here!!">
+    </form>
+
+    <ul id="todo">
+
+    </ul>
+
     <script src="./js/clock.js"></script>
     <script src="./js/username.js"></script>
     <script src="./js/todo.js"></script>
     <script src="./js/background.js"></script>
     <script src="./js/weather.js"></script>
 </body>
+
 </html>
